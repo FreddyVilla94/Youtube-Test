@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Start your development with a Design System for Bootstrap 4.">
+	<meta name="author" content="Creative Tim">
+	<title>Prueba Técnica</title>
+	<!-- Favicon -->
+	<link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- Icons -->
+	<link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+	<link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Argon CSS -->
+	<link type="text/css" href="./assets/css/argon.css?v=1.1.0" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header-global">
+		<nav class="navbar navbar-main navbar-expand-lg navbar-dark bg-primary headroom">
+			<div class="container">
+				<a class="navbar-brand" href="#">Prueba Técnica - API Youtube</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary"
+					aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar-primary">
+					<div class="navbar-collapse-header">
+						<div class="row">
+							<div class="col-6 collapse-close">
+								<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary"
+									aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+									<span></span>
+									<span></span>
+								</button>
+							</div>	
+						</div>
+					</div>
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item">
+							<a class="nav-link" id="systemDate">
+								<script> document.write(new Date().toLocaleTimeString())</script>
+								<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="section pb-0 section-components">
+			<div class="py-5 bg-secondary">
+				<div class="container">
+					<div class="mb-3">
+						<small class="text-uppercase font-weight-bold">Buscar</small>
+					</div>
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="form-group">
+								<div class="input-group input-group-alternative mb-4">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
+									</div>
+									<input id="nombreBuscar" class="form-control" placeholder="Ingrese lo que desea buscar" type="text">
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="form-group">
+								<button class="btn btn-sm btn-primary" type="button">Buscar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section-shaped section-lg">
+			<div id="videos" class="row"></div>
+		</section>
+	</main>
+
+	<!-- Core -->
+	<script src="./assets/vendor/jquery/jquery.min.js"></script>
+	<script src="./assets/vendor/popper/popper.min.js"></script>
+	<script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="./assets/vendor/headroom/headroom.min.js"></script>
+	<!-- Optional JS -->
+	<script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+	<script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+	<script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+	<!-- Argon JS -->
+	<script src="./assets/js/argon.js?v=1.1.0"></script>
+	<!-- Logica -->
+	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+	<script src="./javascript.js"></script>
+</body>
+
+</html>
