@@ -11,3 +11,7 @@ Debido a circunstancias de poco tiempo disponible, no logre completar los puntos
 Se debe clonar el repositorio y ejecutar el archivo index.html
 
 Se utilizan clases de bootstrap para el diseño del sitio
+
+## Cartelera de proyectos
+
+Les invito a ingresar al sitio de smartsimple.gbm.net y ver uno de mis proyectos mas recientes elaborados.
